@@ -1,0 +1,21 @@
+1、下载安装
+
+2、开始菜单->Git->Git Bash  蹦出类似命令行窗口说明Git安装成功
+
+3、配置
+	git config --global user.name "Your Name"
+	git config --global user.email "email@example.com"
+
+4、创建版本库
+	mkdir learngit    //创建空文件夹learngit
+	cd learngit	  //打开文件夹
+	pwd		  //显示当前目录
+
+5、通过git init命令把这个目录变成Git可以管理的仓库（会在文件夹下创建.git目录）
+	git init
+
+6、将文件readme.txt添加到仓库
+	git add readme.txt
+
+6、将文件提交到仓库
+	git commit -m "说明"
