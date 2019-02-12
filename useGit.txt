@@ -26,4 +26,33 @@
 9、查看修改了什么内容
 	git diff
 
+10、查看提交日志
+	git log
+	或者 git log --pretty=oneline
 
+11、返回上一个版本
+	git reset --hard HEAD^
+
+12、还原回某个版本
+	git reset --hard <版本号>
+
+13、记录每一次命令
+	git reflog
+
+14、撤销工作区修改
+	git checkout -- <文件名>
+
+15、把暂存区的修改撤销掉，重新放回工作区
+	git reset HEAD <文件名>    //放回工作区
+	git checkout -- <文件名>   //撤销工作区修改
+
+16、工作空间删除文件
+	rm <文件名>
+    版本库中删除文件
+	git rm <文件名>
+	git commit
+
+与GitHub仓库之间的传输
+	创建SSH Key
+	$ ssh-keygen -t rsa -C "youremail@example.com"
+	执行完之后会在主目录（/c/Users/Administrator）下创建.ssh (其中也多了.bash_history和.viminfo,不知道是不是执行的上述代码创建的)
