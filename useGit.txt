@@ -77,3 +77,33 @@
 	3、cd gitskills
 
 	4、ls
+
+分支管理
+
+	1、创建并切换到分支dev：	
+	
+		git checkout -b dev
+		即：git branch dev
+		    git checkout dev
+
+	2、查看当前分支
+		
+		git branck
+
+	3、完成项目内容，提交
+
+		git add <文件名>
+
+		git commit -m <说明>
+
+	4、dev分支工作完成后，切换到主分支上
+
+		git checkout master
+
+	5、合并dev分支到当前分支
+
+		git merge dev
+
+	6、合并完成后，可以放心地删除dev分支
+
+		git branch -d dev
