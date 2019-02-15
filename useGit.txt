@@ -14,7 +14,7 @@
 5、通过git init命令把这个目录变成Git可以管理的仓库（会在文件夹下创建.git目录）
 	git init
 
-6、将文件readme.txt添加到仓库
+6、将文件readme.txt（根据需求添加文件）添加到仓库
 	git add readme.txt
 
 7、将文件提交到仓库
@@ -67,3 +67,13 @@
 	   把本地库的所有内容推送到远程库上：
 		git push -u origin master
 	以后每次更改本地仓库后只需执行git push origin master即可推送
+
+从远程库克隆
+
+	1、登录github，创建新的仓库，勾选Initialize this repository with a README，仓库名如gitskills
+
+	2、$ git clone <仓库地址>
+
+	3、cd gitskills
+
+	4、ls
